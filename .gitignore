@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.playwright-mcp/
+*.pyc
+.DS_Store
+htmlcov/
+.coverage
+reports/
+test-results/
+playwright-report/
+locust_stats*.csv
+locust_stats*.html
+*.log
