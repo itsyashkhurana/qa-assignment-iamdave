@@ -91,8 +91,4 @@ Cookie banners are dismissed when present so they cannot hide the header.
 
 **Load.** One GET endpoint, 5 users, hard stop well below 100 calls so the public API is not abused.
 
-## Interview notes
 
-- API assertions check both status and payload, not just `== 200`.
-- UI tests wait on URL/heading rather than fixed sleeps except for a short wait after the in-page Book Demo scroll.
-- Failures print the HTTP body (`response.text`) to speed up debugging.
